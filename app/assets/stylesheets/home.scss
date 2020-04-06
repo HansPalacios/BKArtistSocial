@@ -1,0 +1,97 @@
+
+#home {
+	min-height: 100%;
+	background-image: url(https://bkartistsocial.s3.amazonaws.com/AEBBABE3-319F-45F1-A2E8-DA8ED1E05488.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	#header{
+		height: 300px;
+		position: relative;
+		display: inline-block;
+		background-color: rgba(0,0,0,.3);
+		#logo {
+			width: 200px;
+			position: absolute;
+			top: 35px;
+	    left: 10px;
+
+		}
+		#title {
+			position: absolute;
+			right: 50px;
+			top: 120px;
+			width: 400px;
+		}
+		p {
+			width: 100%;
+			text-align: center;
+			margin: 20px auto;
+			position: absolute;
+		}
+		.links {
+			position: absolute;
+			display: inline-block;
+			width: 150px;
+			text-align: left;
+			a {
+				font-weight: 300;
+				padding: 10px;
+				&:hover {
+				 font-weight: 900; 
+				}
+			}
+		}
+		#link1 {
+			top: 75px;
+			left: 220px;
+		}
+		#link2 {
+			top: 115px;
+			left: 230px;
+		}
+		 #link3 {
+			top: 155px;
+			left: 220px;
+		}
+	}
+}
+
+	#home2 {
+		height: 100%;
+	}
+
+
+#footer {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+  background-color: white;
+	p, p a {
+		margin: 5px auto;
+		text-align: center;
+		font-size: 10px;
+		width: 100%;
+	}
+	h5 {
+		text-align: center;
+		display: inline-block;
+		margin: 1px auto;
+		text-align: center;
+	}
+	.logo {
+		width: 40%;
+	}
+	.socialmedia {
+		text-align: center;
+		width: 60%;
+		margin: 20px auto;
+		a, img {
+			width: 33%;
+			margin: 0 auto;
+		}
+	}
+}
+.pages {
+	box-shadow: 0px -5px 20px -5px rgba(0,0,0,.1);
+}
